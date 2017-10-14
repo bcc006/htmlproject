@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+font-family: "Open Sans Condensed", sans-serif;
+}
+div.banner {
+   background-color:maroon;
+background-size:cover;
+height: 200px;
+}
+article, aside, figure, footer, header, hgroup, 
+menu, nav, section { 
+display: block;
+}
+form {
+   float:right;
+   width: 300px;
+}
+.search {
+  height:32px;
+  width:32px;
+  border: none;
+  cursor: pointer;
+  color:white;
+  position:relative;
+}
+button {
+  position:relative;
+  padding:6px 15px;
+  left:-8px;
+  border:none;
+  background-color:rgba(128, 0, 0, 0.79);
+  color:#fafafa;
+  cursor:pointer;
+  
+}
+#button2 {
+position:relative;
+padding:6px 15px;
+left:-8px;
+border:none;
+background-color:rgba(255, 255, 255, 0);
+color:#fafafa;
+cursor:
+}
+.button:hover {
+  background-color:#530000;
+  color:#207cca;
+}
+input[type="submit"] {
+  font-family: FontAwesome;
+  font-size: 1.3333333333333333em;
+}
+div.profilebox {
+padding:5px;
+background-color:#a5a5a5;
+text-align:left;
+font: .875em/1.25em "Open Sans Condensed", sans-serif;
+}
+div.profilebox2 {
+padding:5px;
+text-align:left;
+font: .875em/1.25em "Open Sans Condensed", sans-serif;
+background-color:#eeeeee;
+}
+.input[type=text] {
+   width: 130px;
+   -webkit-transition: width 0.4s ease-in-out;
+   transition: width 0.4s ease-in-out;
+}
+/* Style The Dropdown Button */
+.dropbtn {
+   color: white;
+   padding: 16px;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+   position: relative;
+   display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color:rgb(255, 217, 0);
+   width:50px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+   font-size:small;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+   color:maroon;
+   padding:5px;
+   text-decoration: none;
+   display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+background-color:rgba(0, 0, 0, 0.15);
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+</style>
+</head>
+
+
+<script>
+ function readURL(input) {
+if (input.files && input.files[0]) {
+var reader = new FileReader();
+
+reader.onload = function (e) {
+                    $('#blah')
+                        .attr('src', e.target.result)
+                        .width(150)
+                        .height(200);
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+</script>
+
+<div "POSITION: absolute; Top: 300px; Right: 150px">
+<!--<form action="/action_page.php">
+ <input type="file" name="pic" accept="image/*" align="right">
+ <input type="submit">
+</form> -->
+<link class="jsbin" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
+<meta charset=utf-8 />
+<title>JS Bin</title>
+<!--[if IE]>
+ <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<div class="banner" style="text-align:right;">
+<div style="height:20px;">
+<input type="text" name="search" placeholder="Search..">
+<button class="w3-btn w3-xlarge" id="button2"><i class="w3-margin-left fa fa-search" style="font-size:20px;"></i></button>
+<a href="personalAccount3.html" style="color:gold;text-decoration:none;"><img src="http://i1376.photobucket.com/albums/ah8/bookswap/bookSwap%20Icons%20White%20Profile_zpsgfplf4op.png" style="margin-top:10px;display:inline;height:20px;" /> DAJUAN</a> &nbsp;
+<div class="dropdown" style="float:right;">
+<button class="dropbtn"><i class="w3-margin-left fa fa-cogs"></i></button>
+<div class="dropdown-content">
+   <a href="">Report</a>
+   <a href="FAQ.html">Help</a>
+   <a href="homepage1.html">Logout</a>
+</div>
+</div>
+</div>
+<a href="SearchPage.html"><img src="http://i1376.photobucket.com/albums/ah8/bookswap/bookSwap%20Buttons%2022222_zpsl63sbis0.png" style="margin-right:-40px;margin-top:135px;height:35px;" /></a>
+<img src="http://i1376.photobucket.com/albums/ah8/bookswap/bookSwapwhite_zpsbs6dab0i.png" style="float: left; margin-left:10px; margin-top:5px; height:69px;" />
+<img src="http://i1376.photobucket.com/albums/ah8/bookswap/vuztb0wqvds92gz4_zpskq1v8i4o.jpg" style="float:left;margin-top:20px;margin-left:550px;height:150px;border-radius:100px;" />
+</div>
+
+<body>
+<br>
+  <div style="background-color:white;width:28%;margin-left:15px;margin-top:5px;float:left;text-align:center;">
+<img src="http://i1376.photobucket.com/albums/ah8/bookswap/bookSwap%20Icons%20Book%20updates_zpskhcx1mij.png" style="margin-bottom:5px;height:35px;" />
+<div class="profilebox"><span style="float:left;"><b>Title</b></span>&nbsp;<span style="float:right;"><b>Availability</b></span></div>
+<div class="profilebox2"><span style="float:left;"></span>&nbsp;<span style="float:right;margin-right:15px;"><input type="checkbox" name="book" value="book" /></span></div>
+<div class="profilebox"><span style="float:left;"></span>&nbsp;<span style="float:right;margin-right:15px;"><input type="checkbox" name="book" value="book" /></span></div>
+<div class="profilebox2"><span style="float:left;"></span>&nbsp;<span style="float:right;margin-right:15px;"><input type="checkbox" name="book" value="book" /></span></div>
+<div class="profilebox"><span style="float:left;"></span>&nbsp;<span style="float:right;margin-right:15px;"><input type="checkbox" name="book" value="book" /></span></div>
+<div class="profilebox2">&nbsp;<span style="float:right;margin-right:15px;"><input type="checkbox" name="book" value="book" /></div>
+<div class="profilebox">&nbsp;<span style="float:right;margin-right:15px;"><input type="checkbox" name="book" value="book" /></div>
+<div class="profilebox2">&nbsp;<span style="float:right;margin-right:15px;"><input type="checkbox" name="book" value="book" /></div>
+<div class="profilebox">&nbsp;<span style="float:right;margin-right:15px;"><input type="checkbox" name="book" value="book" /></div>
+<div style="text-align:right;margin-top:3px;">
+<form action="">
+<button type="submit">Edit</button>
+</form>
+</div>
+</div>
+<div style="background-color:white;width:28%;margin-right:15px;margin-top:5px;float:right;text-align:center;">
+<img src="http://i1376.photobucket.com/albums/ah8/bookswap/bookSwap%20Icons%201_zpsus0qpqff.png" style="margin-bottom:5px;height:35px; " />
+<div class="profilebox"><b>Account Holder</b></div>
+<div class="profilebox2">Dejuan Price</div>
+<div style="background-color:white;">&nbsp;</div>
+<div class="profilebox"><b>ID/Email</b></div>
+<div class="profilebox2">dprice@gmail.com</div>
+<div style="background-color:white;">&nbsp;</div>
+<div class="profilebox"><b>Language</b></div>
+<div class="profilebox2">English</div>
+</div>
+<div style="background-color:white;width:28%;margin-right:auto;margin-left:auto;margin-top:5px;text-align:center;">
+<img src="http://i1376.photobucket.com/albums/ah8/bookswap/bookSwap%20Icons%20book%20uploads_zpsjvfusuba.png" style="margin-bottom:5px;height:35px;" />
+<div class="profilebox"><b>Title</b></div>
+<div class="profilebox2">Algorithms</div>
+<div class="profilebox">&nbsp;</div>
+<div class="profilebox2">&nbsp;</div>
+<div class="profilebox">&nbsp;</div>
+<div class="profilebox2">&nbsp;</div>
+<div class="profilebox">&nbsp;</div>
+<div class="profilebox2">&nbsp;</div>
+<div class="profilebox">&nbsp;</div>
+<div style="text-align:right;margin-top:3px;">
+<form action="">
+<button type="submit">Upload Book</button>
+</form>
+</div>
+</div>
+
+<br>
+<br>
+<p style= "bottom: 0; width:100%; text-align: center; color:maroon; position: fixed;">
+<a href="AboutUs.html"><font color="maroon">About us</font></a> |          <a href="FAQ.html"><font color="maroon">FAQ</font></a>    |         <a href="FAQ.html"><font color="maroon">Contact Us/Help</font></a>         | <a href="Privacy.html"><font color="maroon">Privacy Policy</font></a>
+</p>
+</body>
+</div>
+</html>

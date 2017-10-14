@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+background-color: gray;
+font-family: "Open Sans Condensed", sans-serif;
+}
+h1 {
+color:maroon;
+text-align:center;
+margin-top:20px;
+}
+div.banner {
+background:url("http://i1376.photobucket.com/albums/ah8/bookswap/openBook%20copy_zps639g6n7k.jpg") no-repeat;
+background-size:cover;
+height: 200px;
+}
+div.box {
+background-color:maroon;
+width:80%;
+height:200px;
+margin-left:auto;
+margin-right:auto;
+border:black 1px solid;
+border-radius:20px;
+margin-top:30px;
+padding:15px 15px 10px 15px;
+}
+div.boxbox {
+width:30%;
+text-align:center;
+display:inline-block;
+color:gold;
+font-family:"Open Sans Condensed", sans-serif;
+font-size: larger;
+margin-top:10px;
+margin-bottom:10px;
+}
+div#main {
+   display: flex;
+   justify-content:center; 
+}
+form {
+                float:right;
+}
+.search {
+  height:32px;
+  width:32px;
+  border: none;
+  cursor: pointer;
+  color:white;
+  position:relative;
+}
+button {
+  position:relative;
+  padding:6px 15px;
+  left:-8px;
+  border:none;
+  background-color:rgba(255, 255, 255, 0);
+  color:#fafafa;
+  cursor:pointer;
+  
+}
+#button2 {
+position:relative;
+padding:6px 15px;
+left:-8px;
+border:none;
+background-color:rgba(255, 255, 255, 0);
+color:#fafafa;
+cursor:
+}
+.button:hover {
+  background-color:#530000;
+  color:#207cca;
+}
+input[type="submit"] {
+  font-family: FontAwesome;
+  font-size: 1.3333333333333333em;
+}
+div.profilebox {
+padding:5px;
+background-color:#a5a5a5;
+text-align:left;
+font: .875em/1.25em "Open Sans Condensed", sans-serif;
+}
+div.profilebox2 {
+padding:5px;
+text-align:left;
+font: .875em/1.25em "Open Sans Condensed", sans-serif;
+background-color:#eeeeee;
+}
+.input[type=text] {
+   width: 130px;
+   -webkit-transition: width 0.4s ease-in-out;
+   transition: width 0.4s ease-in-out;
+}
+/* Style The Dropdown Button */
+.dropbtn {
+   color: white;
+   padding: 16px;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+   position: relative;
+   display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color:maroon;
+   width:50px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+   font-size:small;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+   color:gold;
+   padding:5px;
+   text-decoration: none;
+   display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+background-color:rgba(0, 0, 0, 0.15);
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+.modal {
+   display: none; /* Hidden by default */
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Sit on top */
+   left: 0;
+   top: 0;
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */
+   overflow: auto; /* Enable scroll if needed */
+   background-color: rgb(0,0,0); /* Fallback color */
+   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content/Box */
+.modal-content {
+   background-color: #fefefe;
+   margin: 15% auto; /* 15% from the top and centered */
+   padding: 20px;
+   border: 1px solid #888;
+   width: 80%; /* Could be more or less, depending on screen size */
+}
+/* The Close Button */
+.close {
+   color: #aaa;
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
+}
+.close:hover,
+.close:focus {
+   color: black;
+   text-decoration: none;
+   cursor: pointer;
+}
+</style>
+</head>
+<div class="banner" style="text-align:right;" id="main;">
+<div style="height:20px;">
+<input type="text" name="search" placeholder="Search..">
+<button class="w3-btn w3-xlarge" id="button2"><i class="w3-margin-left fa fa-search" style="font-size:20px;"></i></button>
+<a href="personalAccount1.html" style="color:white;text-decoration:none;"><img src="http://i1376.photobucket.com/albums/ah8/bookswap/bookSwap%20Icons%20White%20Profile_zpsgfplf4op.png" style="margin-top:10px;display:inline;height:20px;" /> DAJAUN</a> &nbsp;
+<div class="dropdown" style="float:right;">
+<button class="dropbtn"><i class="w3-margin-left fa fa-cogs"></i></button>
+<div class="dropdown-content">
+   <a href="">Report</a>
+   <a href="FAQ.html">Help</a>
+   <a href="homepage1.html">Logout</a>
+</div>
+</div>
+<img src="http://i1376.photobucket.com/albums/ah8/bookswap/thumbnail_bookSwapLogo%20white_zpsarr3zmjx.png" style="float: left; margin-left:10px; margin-top:5px; height:90px;" />
+</div>
+</div>
+<body>
+<Div style= "text-shadow: black 2px 2px">
+<h1>MATERIALS FOUND</h1>
+</div>
+<div class="box">
+<div class="boxbox" style="float:left;">
+Textbook
+<div style="margin-top:10px;text-align:center;">
+<img src="https://images-na.ssl-images-amazon.com/images/I/51-ZPdoxkdL._SX258_BO1,204,203,200_.jpg" style="height:150px;">
+</div>
+</div>
+<div class="boxbox" style="float:right;">
+Description<br>
+<div style="vertical-align:middle;font-size:medium;color:white;margin-top:10px;">
+Book for introductory psychology course. Good condition, some notes and highlighter.<br><br><font color="gold"> Department Code:</font> PSY 1101 <br><font color="gold">Course:</font> Introduction to Psychology
+<br>
+
+<br>
+Price: $60
+</div>
+</div>
+<div class="boxbox" style="margin-left:auto;margin-right:auto;">
+Offering Student
+<div style="margin-top:10px;text-align:center;margin-top:30px;color:white;font-size:small;margin-bottom:30px;">
+<a href="personalAccount2.html"><img src="http://i1376.photobucket.com/albums/ah8/bookswap/ib38w8ynlhj19a9h_zpskciaglro.jpg" style="height:90px;border-radius:150px;"></a>
+<p>Hunter Metcalf</p>
+</div>
+</div>
+</div>
+<p style="text-align:center;">
+<button id="myBtn"><img src="http://i1376.photobucket.com/albums/ah8/bookswap/bookSwap%20Icons%20confirmation_zpsnqr2y6m5.png" style="width:200px;"></button>
+</p>
+<div id="myModal" class="modal">
+ <!-- Popup Stuff -->
+<div class="modal-content">
+<span class="close">&times;</span>
+<p>An email has been sent to student Hunter Metcalf! </p>
+</div>
+</div>
+<script>
+var modal = document.getElementById('myModal');
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+// When the user clicks on the button, open the modal 
+btn.onclick = function() {
+   modal.style.display = "block";
+}
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+   modal.style.display = "none";
+   window.location.href = "";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+   if (event.target == modal) {
+       modal.style.display = "none";
+       window.location.href = "SearchPage.html";
+   }
+}
+</script>
+<p>&nbsp;</p>
+<p style= "bottom: 0; width:100%; text-align: center; color:maroon; position: fixed;">
+<a href="AboutUs.html"><font color="maroon">About us</font></a> |          <a href="FAQ.html"><font color="maroon">FAQ</font></a>    |         <a href="FAQ.html"><font color="maroon">Contact Us/Help</font></a>         | <a href="Privacy.html"><font color="maroon">Privacy Policy</font></a>
+</p>
+</body>
+</html>

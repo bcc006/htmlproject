@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+background-color: gray;
+}
+div.banner {
+background:url("http://i1376.photobucket.com/albums/ah8/bookswap/SanDiegoCityCollegeLearningResource_-_bookshelf_zpsxxq429w5%20copy_zpsxath4kon.jpg") no-repeat;
+background-size:cover;
+height: 200px;
+}
+
+form.right {
+                float: right;
+}
+
+.header-labels{
+width: 100%; color: gold; font-size: 18px;
+}
+
+.search {
+  height:32px;
+  width:32px;
+  border: none;
+  cursor: pointer;
+  color:white;
+  position:relative;
+}
+button {
+  position:relative;
+  padding:6px 15px;
+  left:-8px;
+  border:none;
+  background-color:rgba(255, 255, 255, 0);
+  color:#fafafa;
+  cursor:pointer;
+  
+}
+#button2 {
+position:relative;
+padding:6px 15px;
+left:-8px;
+border:none;
+background-color:rgba(255, 255, 255, 0);
+color:#fafafa;
+cursor:
+}
+.button:hover {
+  background-color:#530000;
+  color:#207cca;
+}
+input[type="submit"] {
+  font-family: FontAwesome;
+  font-size: 1.3333333333333333em;
+}
+div.profilebox {
+padding:5px;
+background-color:#a5a5a5;
+text-align:left;
+font: .875em/1.25em "Open Sans Condensed", sans-serif;
+}
+div.profilebox2 {
+padding:5px;
+text-align:left;
+font: .875em/1.25em "Open Sans Condensed", sans-serif;
+background-color:#eeeeee;
+}
+.input[type=text] {
+   width: 130px;
+   -webkit-transition: width 0.4s ease-in-out;
+   transition: width 0.4s ease-in-out;
+}
+/* Style The Dropdown Button */
+.dropbtn {
+   color: white;
+   padding: 16px;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+   position: relative;
+   display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color:maroon;
+   width:50px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+   font-size:small;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+   color:gold;
+   padding:5px;
+   text-decoration: none;
+   display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+background-color:rgba(0, 0, 0, 0.15);
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+input{
+margin: 20px 0 0 20px;
+}
+
+</style>
+</head>
+<div class="banner" style="text-align:right;">
+<div style="height:20px;">
+<input type="text" name="search" placeholder="Search..">
+<button class="w3-btn w3-xlarge" id="button2"><i class="w3-margin-left fa fa-search" style="font-size:20px;"></i></button>
+<a href="personalAccount1.html" style="color:white;text-decoration:none;"><img src="http://i1376.photobucket.com/albums/ah8/bookswap/bookSwap%20Icons%20White%20Profile_zpsgfplf4op.png" style="margin-top:10px;display:inline;height:20px;" /> DAJAUN</a> &nbsp;
+<div class="dropdown" style="float:right;">
+<button class="dropbtn"><i class="w3-margin-left fa fa-cogs"></i></button>
+<div class="dropdown-content">
+   <a href="">Report</a>
+   <a href="FAQ.html">Help</a>
+   <a href="homepage1.html">Logout</a>
+</div>
+</div>
+<img src="http://i1376.photobucket.com/albums/ah8/bookswap/thumbnail_bookSwapLogo%20white_zpsarr3zmjx.png" style="float: left; margin-left:10px; margin-top:5px; height:90px;" />
+</div>
+</div>
+<body>
+
+<div style= "width: 70%; text-align: center; text-shadow: black 2px 2px; margin: auto; color: maroon; font-size: 40px">
+FIND YOUR COURSE MATERIALS
+</div>
+
+<div style= "width: 70%; text-align: center; margin: auto; color: maroon; font-size: 18px">
+Type your courses and find your textbook
+</div>
+
+<p>&nbsp;</p>
+
+<div class="container" style="width:60%;margin:auto; allign: center; border: 5px solid maroon; 
+background-color: maroon; border-radius: 30px">
+<div class="row">
+<div class="col-sm-4">
+<div style= "text-align: center">
+<label class= "text-center header-labels" for= "department"> Title </label>
+</div>
+</div>
+<div class="col-sm-4">
+<div style= "text-align: center">
+<label class= "text-center header-labels" for= "courses"> Courses </label>
+</div>
+</div>
+<div class="col-sm-4">
+<div style= "text-align: center">
+<label class= "text-center header-labels" for= "buy-rent"> Department </label>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-sm-4">
+<div style= "text-align: center">
+<input id="department" type="text" placeholder="Search..." required>
+<input type="text" placeholder="Search..." required>
+<input type="text" placeholder="Search..." required>
+</div>
+</div>
+<div class="col-sm-4">
+<div style= "text-align: center">
+<input id="courses" type="text" placeholder="Search..." required>
+<input type="text" placeholder="Search..." required>
+<input type="text" placeholder="Search..." required>
+<a href="resultPage.html"> <input type="button" value="Search"> </a>
+</div>
+</div>
+<div class="col-sm-4">
+<div style= "text-align: center">
+<input id="buy-rent" type="text" placeholder="Search..." required>
+<input type="text" placeholder="Search..." required>
+<input type="text" placeholder="Search..." required>
+</div>
+</div>
+</div>
+</div>
+
+<br>
+<p style= "bottom: 0; width:100%; text-align: center; color:gold; position: fixed;">
+
+<a href="AboutUs.html"><font color="maroon"> About us |   </font> </a> <a href="FAQ.html"> <font color="maroon">    FAQ    | </font> </a> <a href="FAQ.html"> <font color="maroon">     Contact Us/Help  </font> </a> <a href="Privacy.html"><font color = "maroon">     | Privacy Policy </font> </a>
+</p>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
